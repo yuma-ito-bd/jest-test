@@ -2,9 +2,7 @@ import { Robot } from 'Robot';
 
 describe('Personのテスト', () => {
     test('クラスの一部だけモックになっているか', () => {
-        const helloSpy = jest.spyOn(Robot.prototype, 'hello').mockImplementationOnce(() => {
-            return 'piro piro';
-        });
+        const helloSpy = jest.spyOn(Robot.prototype, 'hello').mockReturnValue('piro piro');
 
         const robot = new Robot();
         expect(helloSpy).not.toHaveBeenCalled();
