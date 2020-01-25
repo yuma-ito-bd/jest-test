@@ -1,0 +1,17 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuma Ito",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
+  }
+}
