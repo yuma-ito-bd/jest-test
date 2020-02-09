@@ -1,4 +1,4 @@
-import * as walkModule from 'walk';
+import * as walkModule from '../src/walk';
 
 describe('walk関数のモック化テスト', () => {
     test('モック化できているか', () => {

@@ -1,4 +1,4 @@
-import { Robot } from 'Robot';
+import { Robot } from '../src/Robot';
 
 describe('Personのテスト', () => {
     test('クラスの一部だけモックになっているか', () => {

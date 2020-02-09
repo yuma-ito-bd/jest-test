@@ -26,6 +26,8 @@ module.exports = {
         // importのpath指定で相対パスの使用を許可する。
         "import/no-unresolved": "off",
         // console系の警告を外す。
-        "no-console": "off"
+        "no-console": "off",
+        // 相対パスを使用する際に拡張子の指定を不要に
+        "import/extensions": ["error", "never"]
     }
 }

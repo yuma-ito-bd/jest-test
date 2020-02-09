@@ -1,4 +1,4 @@
-import { Robot } from 'Robot';
+import { Robot } from '../src/Robot';
 
 jest.mock('Robot');
 const RobotMock = Robot as jest.Mock;
