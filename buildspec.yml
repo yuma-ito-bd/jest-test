@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm ci
+  build:
+    commands:
+      - npm run test:ci
+reports:
+  jest_reports:
+    files:
+      - test-results.xml
+    file-format: JUNITXML
+    base-directory: reports
