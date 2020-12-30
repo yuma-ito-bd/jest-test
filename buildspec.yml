@@ -6,4 +6,10 @@ phases:
       - npm ci
   build:
     commands:
-      - npm test
+      - npm run test:ci
+reports:
+  jest_reports:
+    files:
+      - test-results.xml
+    file-format: JUNITXML
+    base-directory: reports
